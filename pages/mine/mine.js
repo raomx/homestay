@@ -1,6 +1,7 @@
 const app = getApp()
 Component({
   data: {},
+  
   pageLifetimes: {
     show() {
       if (typeof this.getTabBar === 'function' &&
